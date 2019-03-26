@@ -29,6 +29,7 @@ public class UserControllerImpl implements UserController{
 
         // 登录成功
         doLoginSuccess(userEntity, httpRsp);
+
         return Result.newSuccessResult();
     }
     /**
